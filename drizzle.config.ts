@@ -15,7 +15,7 @@ export default defineConfig({
   out:"drizzle",
   dialect: 'postgresql',
   dbCredentials: {
-    url: "postgresql://test_owner:c4TqlZX0msvN@ep-mute-moon-a5flwviy.us-east-2.aws.neon.tech/expense?sslmode=require",
+    url: process.env.NEXT_PUBLIC_DRIZZLE_DATABASE_URL,
   },
   verbose: true,
   strict: true,
