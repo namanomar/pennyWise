@@ -15,16 +15,16 @@ Pennywise is a multi-user budget tracking platform built with TypeScript, Next.j
 ## Tech Stack 🛠️
 
 - **Frontend:**
-  - [Next.js](https://nextjs.org/) ⚛️: Server-side rendering and routing for React applications.
-  - [React.js](https://reactjs.org/) 🌐: User interface framework.
-  - [Shadcn UI](https://shadcn.dev/) 🎨: UI components for a responsive, modern design.
-  - [Clerk.js](https://clerk.dev/) 🔐: Authentication and user management platform.
-  - **TypeScript** 🟦: Strong typing and modern JavaScript features.
+  - ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white) [Next.js](https://nextjs.org/) ⚛️: Server-side rendering and routing for React applications.
+  - ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) [React.js](https://reactjs.org/) 🌐: User interface framework.
+  - ![Shadcn UI](https://img.shields.io/badge/Shadcn%20UI-5A67D8?style=flat) [Shadcn UI](https://shadcn.dev/) 🎨: UI components for a responsive, modern design.
+  - ![Clerk.js](https://img.shields.io/badge/Clerk.js-F6C915?style=flat&logo=clerk&logoColor=black) [Clerk.js](https://clerk.dev/) 🔐: Authentication and user management platform.
+  - ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white) **TypeScript** 🟦: Strong typing and modern JavaScript features.
 
 - **Backend:**
-  - [Node.js](https://nodejs.org/) ⚙️: Backend runtime environment.
-  - [Drizzle ORM](https://drizzle.team/) 🧑‍💻: Database ORM for PostgreSQL.
-  - **PostgreSQL** 🐘: Robust and scalable relational database system.
+  - ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white) [Node.js](https://nodejs.org/) ⚙️: Backend runtime environment.
+  - ![Drizzle ORM](https://img.shields.io/badge/Drizzle%20ORM-4F5B93?style=flat) [Drizzle ORM](https://drizzle.team/) 🧑‍💻: Database ORM for PostgreSQL.
+  - ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white) **PostgreSQL** 🐘: Robust and scalable relational database system.
 
 ## Installation 🚀
 
@@ -35,13 +35,13 @@ To set up and run the Pennywise platform locally, follow these steps:
    git clone https://github.com/your-username/pennywise.git
    cd pennywise
    ```
-2. Install dependencies 📦:
+2. **Install dependencies** 📦:
 
 ```
 npm install
 ```
 
-3. Set up environment variables 🔑:
+3. **Set up environment variables** 🔑:
 
 ```
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_frontend_api
@@ -56,12 +56,12 @@ NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_REDIRECT_URL=/
 NEXT_PUBLIC_DRIZZLE_DATABASE_URL= your database url
 
 ```
-4. Run database migrations
+4. **Run database migrations**
 ```
 npm run db:migrate
 
 ```
-5. Start the development server ⚡
+5. **Start the development server** ⚡
 ```
 npm run dev
 
